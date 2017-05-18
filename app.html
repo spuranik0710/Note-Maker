@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Note_Maker</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="wrapper">
+	
+		<header>
+			<h1><strong>Note Maker</strong></h1>
+		</header>
+		<div id="content">
+			<div id="content_note">
+				<div id="add">
+				<img src="plus.png" id="addimg">
+				<span><strong>Add a Note</strong></span>
+				
+				</div>
+				<div id="numnode">
+					
+				</div>
+
+				<div id="note">
+					<label id="subjectlabel">Enter the Note Subject</label>
+					<input type="text" name="subject" id="subject">
+					<label id="msglabel">Enter the Note Message</label>
+					<textarea id="message"></textarea>
+					<label id="namelabel">Enter the Author Name</label>
+					<input type="text" name="name" id="author">
+
+					<button type="button" class="ok" id="ok">OK</button>
+					<button type="button" class="ok" id="cancel">Cancel</button>
+					<button type="button" class="ok" id="update">Update</button>
+				</div>
+				<div id="list-wrapper"></div>
+				<div id="notedetail">
+					
+				</div>
+
+				
+			</div>
+			
+		
+		</div>	
+	</div>
+
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+</html>

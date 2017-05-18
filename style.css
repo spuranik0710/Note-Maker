@@ -1,0 +1,148 @@
+#wrapper{
+	  margin: 0px auto;
+	  max-width: 1024px;
+	  background-color: black;
+}
+/*#background{
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	display: none;
+}*/
+header{
+	background-color: black;
+	background-color: #8E8E8E;
+    height: 100px;
+    text-align: center;
+    /* padding: 10px; */
+    line-height: 100px;
+}
+#content{
+	background-color: black;
+	padding: 40px;
+	min-height: 500px;
+
+}
+#content_note{
+	min-height: 500px;
+	background-color: #F9EB76;
+}
+#add{
+	color: black;
+    display: inline-block;
+    margin: 30px 365px 0px 365px;
+}
+#numnode{
+        margin: 17px 380px;
+
+}
+#content_note span{
+	display: inline-block;
+    margin-top: 31px;
+    float: right;
+    font-size: 22px;
+    margin-left: 30px;
+}
+#note{
+    display: none;
+    width: 500px;
+    min-height: 356px;
+    background-color: #4F81BD;
+    padding: 30px;
+    margin: 0px auto;
+    left: 427px;
+    top: 200px;
+    line-height: 49px;
+    position: absolute;
+}
+#note input{
+	width: 300px;
+    display: block;
+    height: 30px;
+    border: 2px solid #385D8A;
+}
+#note label{
+	color: white;
+	display: block;
+}
+#message{
+	height: 60px;
+	width: 300px;
+	display: block;
+	border: 2px solid #385D8A;
+}
+.ok{
+	background-color: #953735;
+    border: 2px solid #385D8A;
+    /* height: 22px; */
+    border-radius: 11px;
+    padding: 6px;
+    margin: 13px 7px;
+    display: block;
+    float: left;
+    width: 100px;
+    color: white;
+}
+#ok{
+    background-color: green;
+}
+
+#table{
+    width: 50%;
+    border:2px solid grey;
+    margin:  auto auto;
+
+
+}
+tr,td,th{
+    padding: 10px;
+    color: black;
+
+}
+#trhead,#td,#th{
+    border:1px solid grey;
+    
+}
+#trhead{
+    background-color: #1F497D;
+    border:1px solid grey;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: left;
+}
+#notedetail{
+    width: 500px;
+    max-height: 356px;
+    background-color: #4F81BD;
+    padding: 30px;
+    margin: 0px auto;
+    top: 201px;
+    left: 419px;
+    line-height: 49px;
+    position: absolute;
+    display: none;
+    z-index: 10;
+    overflow-y: scroll;
+}
+#okdetail{
+    border: 2px solid #385D8A;
+    /* height: 22px; */
+    padding: 6px;
+    display: block;
+    margin: 13px 7px;
+    float: left;
+    border-radius: 11px;
+    width: 100px;
+    color: white;
+}
+.up{
+    background-color: #FD971F;
+}
+.okbtn{
+    background-color: #55A92E;
+}
+#update{
+    display: none;
+}
